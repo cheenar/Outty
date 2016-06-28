@@ -1,4 +1,4 @@
-<center>
+
 ![Image of Logo](http://icons.iconarchive.com/icons/kyo-tux/phuzion/256/Device-Speaker-icon.png)
 <h1>Outty</h1>
 <p>Have you ever been in a situation where you wish you could switch your system audio output device quickly, with zero fuss? Doesn't it get tiring opening System Preferences and then selecting the output device? I thought so too, and I decided to whip up a quick solution</p>
@@ -15,8 +15,6 @@ One quick note: If you attach a new output device, you will need to restart Outt
 </p>
 
 <h3>Special Thanks</h3>
-
-</center>
 
 <ul>
 	
