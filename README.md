@@ -8,7 +8,7 @@
 
 <h3>Usage</h3>
 
-<p><a href="103 KBOutty.zip">Download</a> me right now and double click! No extra steps, the Outty logo will appear in your menu bar and you can start using it immediately! 
+<p><a href="https://github.com/cheenar/Outty/releases">Download</a> me right now and double click! No extra steps, the Outty logo will appear in your menu bar and you can start using it immediately! 
 <br>
 <br>
 One quick note: If you attach a new output device, you will need to restart Outty! Automatically refreshing the list will be included in Outty 1.1!
