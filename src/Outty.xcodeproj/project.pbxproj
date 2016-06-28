@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		640201151D2221B50020DB8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 640201141D2221B50020DB8E /* AppDelegate.m */; };
+		640201181D2221B50020DB8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 640201171D2221B50020DB8E /* main.m */; };
+		6402011A1D2221B50020DB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640201191D2221B50020DB8E /* Assets.xcassets */; };
+		6402011D1D2221B50020DB8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6402011B1D2221B50020DB8E /* MainMenu.xib */; };
+		640201271D2229EE0020DB8E /* SSAudioDeviceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 640201261D2229EE0020DB8E /* SSAudioDeviceCenter.m */; };
+		6402012A1D222A050020DB8E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640201291D222A050020DB8E /* Carbon.framework */; };
+		6402012C1D222A0B0020DB8E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402012B1D222A0B0020DB8E /* CoreAudio.framework */; };
+		6402012E1D222A100020DB8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402012D1D222A100020DB8E /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		640201101D2221B50020DB8E /* Outty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		640201131D2221B50020DB8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		640201141D2221B50020DB8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		640201171D2221B50020DB8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		640201191D2221B50020DB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6402011C1D2221B50020DB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6402011E1D2221B50020DB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640201251D2229EE0020DB8E /* SSAudioDeviceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAudioDeviceCenter.h; sourceTree = "<group>"; };
+		640201261D2229EE0020DB8E /* SSAudioDeviceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAudioDeviceCenter.m; sourceTree = "<group>"; };
+		640201291D222A050020DB8E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		6402012B1D222A0B0020DB8E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		6402012D1D222A100020DB8E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6402010D1D2221B40020DB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402012E1D222A100020DB8E /* Cocoa.framework in Frameworks */,
+				6402012C1D222A0B0020DB8E /* CoreAudio.framework in Frameworks */,
+				6402012A1D222A050020DB8E /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		640201071D2221B40020DB8E = {
+			isa = PBXGroup;
+			children = (
+				640201121D2221B50020DB8E /* Outty */,
+				640201111D2221B50020DB8E /* Products */,
+				640201281D222A050020DB8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		640201111D2221B50020DB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				640201101D2221B50020DB8E /* Outty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		640201121D2221B50020DB8E /* Outty */ = {
+			isa = PBXGroup;
+			children = (
+				640201241D2229E40020DB8E /* audiodevice */,
+				640201131D2221B50020DB8E /* AppDelegate.h */,
+				640201141D2221B50020DB8E /* AppDelegate.m */,
+				640201191D2221B50020DB8E /* Assets.xcassets */,
+				6402011B1D2221B50020DB8E /* MainMenu.xib */,
+				6402011E1D2221B50020DB8E /* Info.plist */,
+				640201161D2221B50020DB8E /* Supporting Files */,
+			);
+			path = Outty;
+			sourceTree = "<group>";
+		};
+		640201161D2221B50020DB8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				640201171D2221B50020DB8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		640201241D2229E40020DB8E /* audiodevice */ = {
+			isa = PBXGroup;
+			children = (
+				640201251D2229EE0020DB8E /* SSAudioDeviceCenter.h */,
+				640201261D2229EE0020DB8E /* SSAudioDeviceCenter.m */,
+			);
+			name = audiodevice;
+			sourceTree = "<group>";
+		};
+		640201281D222A050020DB8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6402012D1D222A100020DB8E /* Cocoa.framework */,
+				6402012B1D222A0B0020DB8E /* CoreAudio.framework */,
+				640201291D222A050020DB8E /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6402010F1D2221B40020DB8E /* Outty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640201211D2221B50020DB8E /* Build configuration list for PBXNativeTarget "Outty" */;
+			buildPhases = (
+				6402010C1D2221B40020DB8E /* Sources */,
+				6402010D1D2221B40020DB8E /* Frameworks */,
+				6402010E1D2221B40020DB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Outty;
+			productName = Outty;
+			productReference = 640201101D2221B50020DB8E /* Outty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		640201081D2221B40020DB8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Cheenar Gupte";
+				TargetAttributes = {
+					6402010F1D2221B40020DB8E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UXU9969AF4;
+						DevelopmentTeamName = "ajay gupte (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6402010B1D2221B40020DB8E /* Build configuration list for PBXProject "Outty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 640201071D2221B40020DB8E;
+			productRefGroup = 640201111D2221B50020DB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6402010F1D2221B40020DB8E /* Outty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6402010E1D2221B40020DB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402011A1D2221B50020DB8E /* Assets.xcassets in Resources */,
+				6402011D1D2221B50020DB8E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6402010C1D2221B40020DB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640201181D2221B50020DB8E /* main.m in Sources */,
+				640201271D2229EE0020DB8E /* SSAudioDeviceCenter.m in Sources */,
+				640201151D2221B50020DB8E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6402011B1D2221B50020DB8E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6402011C1D2221B50020DB8E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6402011F1D2221B50020DB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		640201201D2221B50020DB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		640201221D2221B50020DB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Outty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = me.cheenar.Outty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		640201231D2221B50020DB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Outty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = me.cheenar.Outty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6402010B1D2221B40020DB8E /* Build configuration list for PBXProject "Outty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6402011F1D2221B50020DB8E /* Debug */,
+				640201201D2221B50020DB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640201211D2221B50020DB8E /* Build configuration list for PBXNativeTarget "Outty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640201221D2221B50020DB8E /* Debug */,
+				640201231D2221B50020DB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 640201081D2221B40020DB8E /* Project object */;
+}
